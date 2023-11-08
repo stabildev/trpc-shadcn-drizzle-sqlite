@@ -1,0 +1,13 @@
+{
+  "version": "5",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1699479800178,
+      "tag": "0000_soft_dazzler",
+      "breakpoints": true
+    }
+  ]
+}
