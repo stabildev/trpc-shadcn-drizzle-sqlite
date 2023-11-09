@@ -20,11 +20,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={inter.className}>
-        <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
-          <TrpcProvider>{children}</TrpcProvider>
-        </ThemeProvider>
-      </body>
+      <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+        <TrpcProvider>
+          <body className={inter.className}>{children}</body>
+        </TrpcProvider>
+      </ThemeProvider>
     </html>
   )
 }
