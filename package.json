@@ -1,5 +1,5 @@
 {
-  "name": "todo-trpc",
+  "name": "trpc-shadcn-drizzle-sqlite",
   "version": "0.1.0",
   "private": true,
   "scripts": {
